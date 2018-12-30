@@ -1,0 +1,98 @@
+body {
+	text-align: center;
+	background:linear-gradient(to right, black, #4C4C4C, black, white, black, #4C4C4C, black);
+}
+div#all {
+	width: 300px;
+	height: 600px;
+	/*border: solid black;*/
+	margin: 0 auto;
+	margin-top: 250px;
+	text-align: center;
+	position: relative;/*all内其他元素将以它为参照进行对齐*/
+}
+
+div#eye {
+	margin: 0 auto;
+	margin-bottom: 0;
+	width: 200px;
+	height: 160px;
+	background-image: url("judge.png");
+	background-repeat: no-repeat;
+	background-size: 200px, 160px;
+	position: absolute;
+	top:-170px;
+	left: 80px;
+}
+
+h1 {
+	margin-top: 0;
+	/*background: linear-gradient(to left, #f0db92,#d795ea, #93e600, #85dbe9, #f0a1fb);*/
+}
+
+input {
+	opacity: 0.7;
+	margin-bottom: 10px;
+	width: 200px;
+	-web-kit-appearance:none;
+	-moz-appearance: none;
+	outline:0;
+}
+
+#submit {
+	margin-right: 40px;
+	margin-left: 0px;
+}
+
+#submit, #reset {
+	margin-top: 30px;
+	color: white;
+	width: 70px;
+	height: 40px;
+	background-color: black;
+	border-style: none;
+	outline: none;
+	border-radius: 25px;
+}
+
+span {
+	text-align: left;
+	margin-left: 50px;
+    display: block;
+    margin-top: -1px;
+    margin-bottom: 2px;
+}
+
+.wrong {
+    color: red;
+    font-size: 70%;
+}
+
+.right {
+	margin-right: 132px;
+    color: #F7ED0F;
+    font-size: bolder;
+    font-size: 50%;
+}
+
+.add {
+	background: black;
+	opacity: 0.65;
+	box-sizing: border-box;
+	text-align:center;
+	height:2.7em;
+	border-radius:4px;
+	border:1px solid #c8cccf;
+	color:#6a6f77;
+	-web-kit-appearance:none;
+	-moz-appearance: none;
+	display:block;
+	outline:0;
+	padding:0 1em;
+	text-decoration:none;
+	width:100%;
+}
+
+label {
+	margin-left: -50px;
+}
